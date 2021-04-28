@@ -54,6 +54,11 @@ img {
     max-width: 100%;
 }
 
+:focus {
+    outline: 3px solid var(--clr-accent);
+    outline-offset: 3px;
+}
+
 strong { font-weight: var(--fw-bold) }
 
 /* Typography */
